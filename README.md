@@ -8,7 +8,7 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 7.0.401
+* dotnetcore-sdk 8.0.100
 * dotnetcore-runtime 7.0.11 (required by Sonar-Scanner)
 * SonarQube MSBuild Scanner 5.14.0.78575
 * Docker binaries 20.10.x (for running Docker in Docker using the docker.sock mount)

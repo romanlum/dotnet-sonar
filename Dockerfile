@@ -1,11 +1,11 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0.401
+FROM mcr.microsoft.com/dotnet/sdk:8.0.100
 
 # Dockerfile meta-information
 LABEL maintainer="NOS Inovação S.A." \
     app_name="dotnet-sonar"
 
 ENV SONAR_SCANNER_MSBUILD_VERSION=5.14.0.78575 \
-    DOTNETCORE_SDK=7.0.401 \
+    DOTNETCORE_SDK=8.0.100 \
     DOTNETCORE_RUNTIME=7.0.11 \
     NETAPP_VERSION=net5.0 \
     DOCKER_VERSION=5:20.10.21~3-0~debian-bullseye \
